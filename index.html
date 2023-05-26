@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typing Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">History</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Typing Website</h1>
+    <div id="text-container">
+      <p id="text-display"></p>
+    </div>
+    <input type="text" id="user-input" placeholder="Start typing...">
+    <button id="start-button">Start</button>
+    <p>Time: <span id="timer">0</span> seconds</p>
+    <p>Error Count: <span id="error-count">0</span></p>
+    <p>Typing Speed: <span id="wpm">0</span> WPM</p>
+
+    <div id="history-container">
+      <h2>Typing History</h2>
+      <ul id="history-list">
+      </ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
